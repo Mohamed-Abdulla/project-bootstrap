@@ -6,7 +6,6 @@ $background-pale: #D1C4E9;
 // Height variables
 $carousel-item-height: 300px;
 
-//Scss-Mixins
 @mixin zero-margin($pad-up-dn, $pad-left-right) {
 	margin:0px auto;
 	padding: $pad-up-dn $pad-left-right;
@@ -73,3 +72,23 @@ body{
     bottom: 0px;
     z-index: 1;
 }
+.modal-content {
+	border: 0px;
+
+	.modal-body {
+		background:$background-pale;
+	}
+
+	.modal-header {
+		background: $background-dark;
+		color: floralwhite;
+		border: 0px;
+
+		.close {
+			color: floralwhite;
+		}
+
+	}
+
+}
+
